@@ -1,0 +1,1099 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="build">
+      <UniqueIdentifier>{D5519164-BF26-36DA-740B-76CEFC1827F4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl">
+      <UniqueIdentifier>{A400525E-1755-1473-C382-AD778C5A587D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\lib">
+      <UniqueIdentifier>{2739B19F-16DF-601C-060A-FF86F6A40045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl">
+      <UniqueIdentifier>{A400525E-1755-1473-C382-AD778C5A587D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\lib">
+      <UniqueIdentifier>{2739B19F-16DF-601C-060A-FF86F6A40045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl">
+      <UniqueIdentifier>{A400525E-1755-1473-C382-AD778C5A587D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\lib">
+      <UniqueIdentifier>{2739B19F-16DF-601C-060A-FF86F6A40045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl">
+      <UniqueIdentifier>{A400525E-1755-1473-C382-AD778C5A587D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\lib">
+      <UniqueIdentifier>{2739B19F-16DF-601C-060A-FF86F6A40045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl">
+      <UniqueIdentifier>{A400525E-1755-1473-C382-AD778C5A587D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\lib">
+      <UniqueIdentifier>{2739B19F-16DF-601C-060A-FF86F6A40045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl">
+      <UniqueIdentifier>{A400525E-1755-1473-C382-AD778C5A587D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\lib">
+      <UniqueIdentifier>{2739B19F-16DF-601C-060A-FF86F6A40045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl">
+      <UniqueIdentifier>{A400525E-1755-1473-C382-AD778C5A587D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\lib">
+      <UniqueIdentifier>{2739B19F-16DF-601C-060A-FF86F6A40045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl">
+      <UniqueIdentifier>{A400525E-1755-1473-C382-AD778C5A587D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\lib">
+      <UniqueIdentifier>{2739B19F-16DF-601C-060A-FF86F6A40045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl">
+      <UniqueIdentifier>{A400525E-1755-1473-C382-AD778C5A587D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\lib">
+      <UniqueIdentifier>{2739B19F-16DF-601C-060A-FF86F6A40045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl">
+      <UniqueIdentifier>{A400525E-1755-1473-C382-AD778C5A587D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\lib">
+      <UniqueIdentifier>{2739B19F-16DF-601C-060A-FF86F6A40045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl">
+      <UniqueIdentifier>{A400525E-1755-1473-C382-AD778C5A587D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\lib">
+      <UniqueIdentifier>{2739B19F-16DF-601C-060A-FF86F6A40045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl">
+      <UniqueIdentifier>{A400525E-1755-1473-C382-AD778C5A587D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\lib">
+      <UniqueIdentifier>{2739B19F-16DF-601C-060A-FF86F6A40045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl">
+      <UniqueIdentifier>{A400525E-1755-1473-C382-AD778C5A587D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\lib">
+      <UniqueIdentifier>{2739B19F-16DF-601C-060A-FF86F6A40045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl">
+      <UniqueIdentifier>{A400525E-1755-1473-C382-AD778C5A587D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\lib">
+      <UniqueIdentifier>{2739B19F-16DF-601C-060A-FF86F6A40045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl">
+      <UniqueIdentifier>{A400525E-1755-1473-C382-AD778C5A587D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\lib">
+      <UniqueIdentifier>{2739B19F-16DF-601C-060A-FF86F6A40045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl">
+      <UniqueIdentifier>{A400525E-1755-1473-C382-AD778C5A587D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\lib">
+      <UniqueIdentifier>{2739B19F-16DF-601C-060A-FF86F6A40045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl">
+      <UniqueIdentifier>{A400525E-1755-1473-C382-AD778C5A587D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\lib">
+      <UniqueIdentifier>{2739B19F-16DF-601C-060A-FF86F6A40045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl">
+      <UniqueIdentifier>{A400525E-1755-1473-C382-AD778C5A587D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\lib">
+      <UniqueIdentifier>{2739B19F-16DF-601C-060A-FF86F6A40045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl">
+      <UniqueIdentifier>{A400525E-1755-1473-C382-AD778C5A587D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\lib">
+      <UniqueIdentifier>{2739B19F-16DF-601C-060A-FF86F6A40045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl">
+      <UniqueIdentifier>{A400525E-1755-1473-C382-AD778C5A587D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\lib">
+      <UniqueIdentifier>{2739B19F-16DF-601C-060A-FF86F6A40045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl">
+      <UniqueIdentifier>{A400525E-1755-1473-C382-AD778C5A587D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\lib">
+      <UniqueIdentifier>{2739B19F-16DF-601C-060A-FF86F6A40045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl">
+      <UniqueIdentifier>{A400525E-1755-1473-C382-AD778C5A587D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\lib">
+      <UniqueIdentifier>{2739B19F-16DF-601C-060A-FF86F6A40045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl">
+      <UniqueIdentifier>{A400525E-1755-1473-C382-AD778C5A587D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\lib">
+      <UniqueIdentifier>{2739B19F-16DF-601C-060A-FF86F6A40045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl">
+      <UniqueIdentifier>{A400525E-1755-1473-C382-AD778C5A587D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\lib">
+      <UniqueIdentifier>{2739B19F-16DF-601C-060A-FF86F6A40045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl">
+      <UniqueIdentifier>{A400525E-1755-1473-C382-AD778C5A587D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\lib">
+      <UniqueIdentifier>{2739B19F-16DF-601C-060A-FF86F6A40045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl">
+      <UniqueIdentifier>{A400525E-1755-1473-C382-AD778C5A587D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\lib">
+      <UniqueIdentifier>{2739B19F-16DF-601C-060A-FF86F6A40045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl">
+      <UniqueIdentifier>{A400525E-1755-1473-C382-AD778C5A587D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\lib">
+      <UniqueIdentifier>{2739B19F-16DF-601C-060A-FF86F6A40045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl">
+      <UniqueIdentifier>{A400525E-1755-1473-C382-AD778C5A587D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\lib">
+      <UniqueIdentifier>{2739B19F-16DF-601C-060A-FF86F6A40045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl">
+      <UniqueIdentifier>{A400525E-1755-1473-C382-AD778C5A587D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\lib">
+      <UniqueIdentifier>{2739B19F-16DF-601C-060A-FF86F6A40045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl">
+      <UniqueIdentifier>{A400525E-1755-1473-C382-AD778C5A587D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\lib">
+      <UniqueIdentifier>{2739B19F-16DF-601C-060A-FF86F6A40045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl">
+      <UniqueIdentifier>{A400525E-1755-1473-C382-AD778C5A587D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\lib">
+      <UniqueIdentifier>{2739B19F-16DF-601C-060A-FF86F6A40045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl">
+      <UniqueIdentifier>{A400525E-1755-1473-C382-AD778C5A587D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\lib">
+      <UniqueIdentifier>{2739B19F-16DF-601C-060A-FF86F6A40045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl">
+      <UniqueIdentifier>{A400525E-1755-1473-C382-AD778C5A587D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\lib">
+      <UniqueIdentifier>{2739B19F-16DF-601C-060A-FF86F6A40045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl">
+      <UniqueIdentifier>{A400525E-1755-1473-C382-AD778C5A587D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\lib">
+      <UniqueIdentifier>{2739B19F-16DF-601C-060A-FF86F6A40045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl">
+      <UniqueIdentifier>{A400525E-1755-1473-C382-AD778C5A587D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\lib">
+      <UniqueIdentifier>{2739B19F-16DF-601C-060A-FF86F6A40045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl">
+      <UniqueIdentifier>{A400525E-1755-1473-C382-AD778C5A587D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\lib">
+      <UniqueIdentifier>{2739B19F-16DF-601C-060A-FF86F6A40045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl">
+      <UniqueIdentifier>{A400525E-1755-1473-C382-AD778C5A587D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\lib">
+      <UniqueIdentifier>{2739B19F-16DF-601C-060A-FF86F6A40045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl">
+      <UniqueIdentifier>{A400525E-1755-1473-C382-AD778C5A587D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\lib">
+      <UniqueIdentifier>{2739B19F-16DF-601C-060A-FF86F6A40045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl">
+      <UniqueIdentifier>{A400525E-1755-1473-C382-AD778C5A587D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\lib">
+      <UniqueIdentifier>{2739B19F-16DF-601C-060A-FF86F6A40045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl">
+      <UniqueIdentifier>{A400525E-1755-1473-C382-AD778C5A587D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\lib">
+      <UniqueIdentifier>{2739B19F-16DF-601C-060A-FF86F6A40045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl">
+      <UniqueIdentifier>{A400525E-1755-1473-C382-AD778C5A587D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\lib">
+      <UniqueIdentifier>{2739B19F-16DF-601C-060A-FF86F6A40045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl">
+      <UniqueIdentifier>{A400525E-1755-1473-C382-AD778C5A587D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\lib">
+      <UniqueIdentifier>{2739B19F-16DF-601C-060A-FF86F6A40045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl">
+      <UniqueIdentifier>{A400525E-1755-1473-C382-AD778C5A587D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\lib">
+      <UniqueIdentifier>{2739B19F-16DF-601C-060A-FF86F6A40045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl">
+      <UniqueIdentifier>{A400525E-1755-1473-C382-AD778C5A587D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\lib">
+      <UniqueIdentifier>{2739B19F-16DF-601C-060A-FF86F6A40045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl">
+      <UniqueIdentifier>{A400525E-1755-1473-C382-AD778C5A587D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\lib">
+      <UniqueIdentifier>{2739B19F-16DF-601C-060A-FF86F6A40045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl">
+      <UniqueIdentifier>{A400525E-1755-1473-C382-AD778C5A587D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\lib">
+      <UniqueIdentifier>{2739B19F-16DF-601C-060A-FF86F6A40045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl">
+      <UniqueIdentifier>{A400525E-1755-1473-C382-AD778C5A587D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\lib">
+      <UniqueIdentifier>{2739B19F-16DF-601C-060A-FF86F6A40045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl">
+      <UniqueIdentifier>{A400525E-1755-1473-C382-AD778C5A587D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\lib">
+      <UniqueIdentifier>{2739B19F-16DF-601C-060A-FF86F6A40045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl">
+      <UniqueIdentifier>{A400525E-1755-1473-C382-AD778C5A587D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\lib">
+      <UniqueIdentifier>{2739B19F-16DF-601C-060A-FF86F6A40045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl">
+      <UniqueIdentifier>{A400525E-1755-1473-C382-AD778C5A587D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\lib">
+      <UniqueIdentifier>{2739B19F-16DF-601C-060A-FF86F6A40045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl">
+      <UniqueIdentifier>{A400525E-1755-1473-C382-AD778C5A587D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\lib">
+      <UniqueIdentifier>{2739B19F-16DF-601C-060A-FF86F6A40045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl">
+      <UniqueIdentifier>{A400525E-1755-1473-C382-AD778C5A587D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\lib">
+      <UniqueIdentifier>{2739B19F-16DF-601C-060A-FF86F6A40045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl">
+      <UniqueIdentifier>{A400525E-1755-1473-C382-AD778C5A587D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\lib">
+      <UniqueIdentifier>{2739B19F-16DF-601C-060A-FF86F6A40045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl">
+      <UniqueIdentifier>{A400525E-1755-1473-C382-AD778C5A587D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\lib">
+      <UniqueIdentifier>{2739B19F-16DF-601C-060A-FF86F6A40045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl">
+      <UniqueIdentifier>{A400525E-1755-1473-C382-AD778C5A587D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\lib">
+      <UniqueIdentifier>{2739B19F-16DF-601C-060A-FF86F6A40045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl">
+      <UniqueIdentifier>{A400525E-1755-1473-C382-AD778C5A587D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\lib">
+      <UniqueIdentifier>{2739B19F-16DF-601C-060A-FF86F6A40045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl">
+      <UniqueIdentifier>{A400525E-1755-1473-C382-AD778C5A587D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\lib">
+      <UniqueIdentifier>{2739B19F-16DF-601C-060A-FF86F6A40045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl">
+      <UniqueIdentifier>{A400525E-1755-1473-C382-AD778C5A587D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\lib">
+      <UniqueIdentifier>{2739B19F-16DF-601C-060A-FF86F6A40045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl">
+      <UniqueIdentifier>{A400525E-1755-1473-C382-AD778C5A587D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\lib">
+      <UniqueIdentifier>{2739B19F-16DF-601C-060A-FF86F6A40045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl">
+      <UniqueIdentifier>{A400525E-1755-1473-C382-AD778C5A587D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\lib">
+      <UniqueIdentifier>{2739B19F-16DF-601C-060A-FF86F6A40045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl">
+      <UniqueIdentifier>{A400525E-1755-1473-C382-AD778C5A587D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\lib">
+      <UniqueIdentifier>{2739B19F-16DF-601C-060A-FF86F6A40045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl">
+      <UniqueIdentifier>{A400525E-1755-1473-C382-AD778C5A587D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\lib">
+      <UniqueIdentifier>{2739B19F-16DF-601C-060A-FF86F6A40045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl">
+      <UniqueIdentifier>{A400525E-1755-1473-C382-AD778C5A587D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\lib">
+      <UniqueIdentifier>{2739B19F-16DF-601C-060A-FF86F6A40045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl">
+      <UniqueIdentifier>{A400525E-1755-1473-C382-AD778C5A587D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\lib">
+      <UniqueIdentifier>{2739B19F-16DF-601C-060A-FF86F6A40045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl">
+      <UniqueIdentifier>{A400525E-1755-1473-C382-AD778C5A587D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\lib">
+      <UniqueIdentifier>{2739B19F-16DF-601C-060A-FF86F6A40045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl">
+      <UniqueIdentifier>{A400525E-1755-1473-C382-AD778C5A587D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\lib">
+      <UniqueIdentifier>{2739B19F-16DF-601C-060A-FF86F6A40045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl">
+      <UniqueIdentifier>{A400525E-1755-1473-C382-AD778C5A587D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\lib">
+      <UniqueIdentifier>{2739B19F-16DF-601C-060A-FF86F6A40045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl">
+      <UniqueIdentifier>{A400525E-1755-1473-C382-AD778C5A587D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\lib">
+      <UniqueIdentifier>{2739B19F-16DF-601C-060A-FF86F6A40045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl">
+      <UniqueIdentifier>{A400525E-1755-1473-C382-AD778C5A587D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\lib">
+      <UniqueIdentifier>{2739B19F-16DF-601C-060A-FF86F6A40045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl">
+      <UniqueIdentifier>{A400525E-1755-1473-C382-AD778C5A587D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\lib">
+      <UniqueIdentifier>{2739B19F-16DF-601C-060A-FF86F6A40045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl">
+      <UniqueIdentifier>{A400525E-1755-1473-C382-AD778C5A587D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\lib">
+      <UniqueIdentifier>{2739B19F-16DF-601C-060A-FF86F6A40045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl">
+      <UniqueIdentifier>{A400525E-1755-1473-C382-AD778C5A587D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\lib">
+      <UniqueIdentifier>{2739B19F-16DF-601C-060A-FF86F6A40045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl">
+      <UniqueIdentifier>{A400525E-1755-1473-C382-AD778C5A587D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\lib">
+      <UniqueIdentifier>{2739B19F-16DF-601C-060A-FF86F6A40045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl">
+      <UniqueIdentifier>{A400525E-1755-1473-C382-AD778C5A587D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\lib">
+      <UniqueIdentifier>{2739B19F-16DF-601C-060A-FF86F6A40045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl">
+      <UniqueIdentifier>{A400525E-1755-1473-C382-AD778C5A587D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\lib">
+      <UniqueIdentifier>{2739B19F-16DF-601C-060A-FF86F6A40045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl">
+      <UniqueIdentifier>{A400525E-1755-1473-C382-AD778C5A587D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\lib">
+      <UniqueIdentifier>{2739B19F-16DF-601C-060A-FF86F6A40045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl">
+      <UniqueIdentifier>{A400525E-1755-1473-C382-AD778C5A587D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\lib">
+      <UniqueIdentifier>{2739B19F-16DF-601C-060A-FF86F6A40045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl">
+      <UniqueIdentifier>{A400525E-1755-1473-C382-AD778C5A587D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\lib">
+      <UniqueIdentifier>{2739B19F-16DF-601C-060A-FF86F6A40045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl">
+      <UniqueIdentifier>{A400525E-1755-1473-C382-AD778C5A587D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\lib">
+      <UniqueIdentifier>{2739B19F-16DF-601C-060A-FF86F6A40045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl">
+      <UniqueIdentifier>{A400525E-1755-1473-C382-AD778C5A587D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\lib">
+      <UniqueIdentifier>{2739B19F-16DF-601C-060A-FF86F6A40045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl">
+      <UniqueIdentifier>{A400525E-1755-1473-C382-AD778C5A587D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\lib">
+      <UniqueIdentifier>{2739B19F-16DF-601C-060A-FF86F6A40045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl">
+      <UniqueIdentifier>{A400525E-1755-1473-C382-AD778C5A587D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\lib">
+      <UniqueIdentifier>{2739B19F-16DF-601C-060A-FF86F6A40045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl">
+      <UniqueIdentifier>{A400525E-1755-1473-C382-AD778C5A587D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\lib">
+      <UniqueIdentifier>{2739B19F-16DF-601C-060A-FF86F6A40045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl">
+      <UniqueIdentifier>{A400525E-1755-1473-C382-AD778C5A587D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\lib">
+      <UniqueIdentifier>{2739B19F-16DF-601C-060A-FF86F6A40045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl">
+      <UniqueIdentifier>{A400525E-1755-1473-C382-AD778C5A587D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\lib">
+      <UniqueIdentifier>{2739B19F-16DF-601C-060A-FF86F6A40045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl">
+      <UniqueIdentifier>{A400525E-1755-1473-C382-AD778C5A587D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\lib">
+      <UniqueIdentifier>{2739B19F-16DF-601C-060A-FF86F6A40045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl">
+      <UniqueIdentifier>{A400525E-1755-1473-C382-AD778C5A587D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\lib">
+      <UniqueIdentifier>{2739B19F-16DF-601C-060A-FF86F6A40045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl">
+      <UniqueIdentifier>{A400525E-1755-1473-C382-AD778C5A587D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\lib">
+      <UniqueIdentifier>{2739B19F-16DF-601C-060A-FF86F6A40045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl">
+      <UniqueIdentifier>{A400525E-1755-1473-C382-AD778C5A587D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\lib">
+      <UniqueIdentifier>{2739B19F-16DF-601C-060A-FF86F6A40045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl">
+      <UniqueIdentifier>{A400525E-1755-1473-C382-AD778C5A587D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\lib">
+      <UniqueIdentifier>{2739B19F-16DF-601C-060A-FF86F6A40045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl">
+      <UniqueIdentifier>{A400525E-1755-1473-C382-AD778C5A587D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\lib">
+      <UniqueIdentifier>{2739B19F-16DF-601C-060A-FF86F6A40045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl">
+      <UniqueIdentifier>{A400525E-1755-1473-C382-AD778C5A587D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\lib">
+      <UniqueIdentifier>{2739B19F-16DF-601C-060A-FF86F6A40045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl">
+      <UniqueIdentifier>{A400525E-1755-1473-C382-AD778C5A587D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\lib">
+      <UniqueIdentifier>{2739B19F-16DF-601C-060A-FF86F6A40045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl">
+      <UniqueIdentifier>{A400525E-1755-1473-C382-AD778C5A587D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\lib">
+      <UniqueIdentifier>{2739B19F-16DF-601C-060A-FF86F6A40045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl">
+      <UniqueIdentifier>{A400525E-1755-1473-C382-AD778C5A587D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\lib">
+      <UniqueIdentifier>{2739B19F-16DF-601C-060A-FF86F6A40045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl">
+      <UniqueIdentifier>{A400525E-1755-1473-C382-AD778C5A587D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\lib">
+      <UniqueIdentifier>{2739B19F-16DF-601C-060A-FF86F6A40045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl">
+      <UniqueIdentifier>{A400525E-1755-1473-C382-AD778C5A587D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\lib">
+      <UniqueIdentifier>{2739B19F-16DF-601C-060A-FF86F6A40045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl">
+      <UniqueIdentifier>{A400525E-1755-1473-C382-AD778C5A587D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\lib">
+      <UniqueIdentifier>{2739B19F-16DF-601C-060A-FF86F6A40045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl">
+      <UniqueIdentifier>{A400525E-1755-1473-C382-AD778C5A587D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\lib">
+      <UniqueIdentifier>{2739B19F-16DF-601C-060A-FF86F6A40045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl">
+      <UniqueIdentifier>{A400525E-1755-1473-C382-AD778C5A587D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\lib">
+      <UniqueIdentifier>{2739B19F-16DF-601C-060A-FF86F6A40045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl">
+      <UniqueIdentifier>{A400525E-1755-1473-C382-AD778C5A587D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\lib">
+      <UniqueIdentifier>{2739B19F-16DF-601C-060A-FF86F6A40045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl">
+      <UniqueIdentifier>{A400525E-1755-1473-C382-AD778C5A587D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\lib">
+      <UniqueIdentifier>{2739B19F-16DF-601C-060A-FF86F6A40045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl">
+      <UniqueIdentifier>{A400525E-1755-1473-C382-AD778C5A587D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\lib">
+      <UniqueIdentifier>{2739B19F-16DF-601C-060A-FF86F6A40045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl">
+      <UniqueIdentifier>{A400525E-1755-1473-C382-AD778C5A587D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\lib">
+      <UniqueIdentifier>{2739B19F-16DF-601C-060A-FF86F6A40045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl">
+      <UniqueIdentifier>{A400525E-1755-1473-C382-AD778C5A587D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\lib">
+      <UniqueIdentifier>{2739B19F-16DF-601C-060A-FF86F6A40045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl">
+      <UniqueIdentifier>{A400525E-1755-1473-C382-AD778C5A587D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\lib">
+      <UniqueIdentifier>{2739B19F-16DF-601C-060A-FF86F6A40045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl">
+      <UniqueIdentifier>{A400525E-1755-1473-C382-AD778C5A587D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\lib">
+      <UniqueIdentifier>{2739B19F-16DF-601C-060A-FF86F6A40045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\lib\vtls">
+      <UniqueIdentifier>{5267A63B-2626-7A8B-4A11-117C255695CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl">
+      <UniqueIdentifier>{A400525E-1755-1473-C382-AD778C5A587D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\lib">
+      <UniqueIdentifier>{2739B19F-16DF-601C-060A-FF86F6A40045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\lib\vtls">
+      <UniqueIdentifier>{5267A63B-2626-7A8B-4A11-117C255695CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl">
+      <UniqueIdentifier>{A400525E-1755-1473-C382-AD778C5A587D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\lib">
+      <UniqueIdentifier>{2739B19F-16DF-601C-060A-FF86F6A40045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\lib\vtls">
+      <UniqueIdentifier>{5267A63B-2626-7A8B-4A11-117C255695CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl">
+      <UniqueIdentifier>{A400525E-1755-1473-C382-AD778C5A587D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\lib">
+      <UniqueIdentifier>{2739B19F-16DF-601C-060A-FF86F6A40045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\lib\vtls">
+      <UniqueIdentifier>{5267A63B-2626-7A8B-4A11-117C255695CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl">
+      <UniqueIdentifier>{A400525E-1755-1473-C382-AD778C5A587D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\lib">
+      <UniqueIdentifier>{2739B19F-16DF-601C-060A-FF86F6A40045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\lib\vtls">
+      <UniqueIdentifier>{5267A63B-2626-7A8B-4A11-117C255695CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl">
+      <UniqueIdentifier>{A400525E-1755-1473-C382-AD778C5A587D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\lib">
+      <UniqueIdentifier>{2739B19F-16DF-601C-060A-FF86F6A40045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\lib\vtls">
+      <UniqueIdentifier>{5267A63B-2626-7A8B-4A11-117C255695CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl">
+      <UniqueIdentifier>{A400525E-1755-1473-C382-AD778C5A587D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\lib">
+      <UniqueIdentifier>{2739B19F-16DF-601C-060A-FF86F6A40045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\lib\vtls">
+      <UniqueIdentifier>{5267A63B-2626-7A8B-4A11-117C255695CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl">
+      <UniqueIdentifier>{A400525E-1755-1473-C382-AD778C5A587D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\lib">
+      <UniqueIdentifier>{2739B19F-16DF-601C-060A-FF86F6A40045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\lib\vtls">
+      <UniqueIdentifier>{5267A63B-2626-7A8B-4A11-117C255695CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl">
+      <UniqueIdentifier>{A400525E-1755-1473-C382-AD778C5A587D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\lib">
+      <UniqueIdentifier>{2739B19F-16DF-601C-060A-FF86F6A40045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\lib\vtls">
+      <UniqueIdentifier>{5267A63B-2626-7A8B-4A11-117C255695CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl">
+      <UniqueIdentifier>{A400525E-1755-1473-C382-AD778C5A587D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\lib">
+      <UniqueIdentifier>{2739B19F-16DF-601C-060A-FF86F6A40045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\lib\vtls">
+      <UniqueIdentifier>{5267A63B-2626-7A8B-4A11-117C255695CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl">
+      <UniqueIdentifier>{A400525E-1755-1473-C382-AD778C5A587D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\lib">
+      <UniqueIdentifier>{2739B19F-16DF-601C-060A-FF86F6A40045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl\lib\vtls">
+      <UniqueIdentifier>{5267A63B-2626-7A8B-4A11-117C255695CE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="build\tool_hugehelp.c">
+      <Filter>build</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\amigaos.c">
+      <Filter>curl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\asyn-ares.c">
+      <Filter>curl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\asyn-thread.c">
+      <Filter>curl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\base64.c">
+      <Filter>curl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\bundles.c">
+      <Filter>curl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\conncache.c">
+      <Filter>curl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\connect.c">
+      <Filter>curl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\content_encoding.c">
+      <Filter>curl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\cookie.c">
+      <Filter>curl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\curl_addrinfo.c">
+      <Filter>curl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\curl_endian.c">
+      <Filter>curl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\curl_fnmatch.c">
+      <Filter>curl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\curl_gethostname.c">
+      <Filter>curl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\curl_gssapi.c">
+      <Filter>curl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\curl_memrchr.c">
+      <Filter>curl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\curl_multibyte.c">
+      <Filter>curl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\curl_ntlm.c">
+      <Filter>curl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\curl_ntlm_core.c">
+      <Filter>curl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\curl_ntlm_msgs.c">
+      <Filter>curl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\curl_ntlm_wb.c">
+      <Filter>curl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\curl_rtmp.c">
+      <Filter>curl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\curl_sasl.c">
+      <Filter>curl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\curl_sasl_gssapi.c">
+      <Filter>curl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\curl_sasl_sspi.c">
+      <Filter>curl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\curl_sspi.c">
+      <Filter>curl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\curl_threads.c">
+      <Filter>curl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\dict.c">
+      <Filter>curl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\dotdot.c">
+      <Filter>curl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\easy.c">
+      <Filter>curl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\escape.c">
+      <Filter>curl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\file.c">
+      <Filter>curl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\fileinfo.c">
+      <Filter>curl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\formdata.c">
+      <Filter>curl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\ftp.c">
+      <Filter>curl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\ftplistparser.c">
+      <Filter>curl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\getenv.c">
+      <Filter>curl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\getinfo.c">
+      <Filter>curl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\gopher.c">
+      <Filter>curl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\hash.c">
+      <Filter>curl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\hmac.c">
+      <Filter>curl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\hostasyn.c">
+      <Filter>curl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\hostcheck.c">
+      <Filter>curl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\hostip.c">
+      <Filter>curl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\hostip4.c">
+      <Filter>curl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\hostip6.c">
+      <Filter>curl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\hostsyn.c">
+      <Filter>curl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\http.c">
+      <Filter>curl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\http2.c">
+      <Filter>curl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\http_chunks.c">
+      <Filter>curl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\http_digest.c">
+      <Filter>curl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\http_negotiate.c">
+      <Filter>curl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\http_negotiate_sspi.c">
+      <Filter>curl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\http_proxy.c">
+      <Filter>curl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\idn_win32.c">
+      <Filter>curl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\if2ip.c">
+      <Filter>curl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\imap.c">
+      <Filter>curl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\inet_ntop.c">
+      <Filter>curl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\inet_pton.c">
+      <Filter>curl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\krb5.c">
+      <Filter>curl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\ldap.c">
+      <Filter>curl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\llist.c">
+      <Filter>curl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\md4.c">
+      <Filter>curl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\md5.c">
+      <Filter>curl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\memdebug.c">
+      <Filter>curl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\mprintf.c">
+      <Filter>curl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\multi.c">
+      <Filter>curl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\netrc.c">
+      <Filter>curl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\non-ascii.c">
+      <Filter>curl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\nonblock.c">
+      <Filter>curl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\nwlib.c">
+      <Filter>curl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\nwos.c">
+      <Filter>curl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\openldap.c">
+      <Filter>curl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\parsedate.c">
+      <Filter>curl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\pingpong.c">
+      <Filter>curl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\pipeline.c">
+      <Filter>curl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\pop3.c">
+      <Filter>curl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\progress.c">
+      <Filter>curl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\rawstr.c">
+      <Filter>curl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\rtsp.c">
+      <Filter>curl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\security.c">
+      <Filter>curl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\select.c">
+      <Filter>curl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\sendf.c">
+      <Filter>curl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\share.c">
+      <Filter>curl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\slist.c">
+      <Filter>curl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\smb.c">
+      <Filter>curl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\smtp.c">
+      <Filter>curl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\socks.c">
+      <Filter>curl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\socks_gssapi.c">
+      <Filter>curl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\socks_sspi.c">
+      <Filter>curl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\speedcheck.c">
+      <Filter>curl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\splay.c">
+      <Filter>curl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\ssh.c">
+      <Filter>curl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\strdup.c">
+      <Filter>curl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\strequal.c">
+      <Filter>curl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\strerror.c">
+      <Filter>curl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\strtok.c">
+      <Filter>curl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\strtoofft.c">
+      <Filter>curl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\telnet.c">
+      <Filter>curl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\tftp.c">
+      <Filter>curl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\timeval.c">
+      <Filter>curl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\transfer.c">
+      <Filter>curl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\url.c">
+      <Filter>curl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\version.c">
+      <Filter>curl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\warnless.c">
+      <Filter>curl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\wildcard.c">
+      <Filter>curl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\x509asn1.c">
+      <Filter>curl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\vtls\axtls.c">
+      <Filter>curl\lib\vtls</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\vtls\curl_darwinssl.c">
+      <Filter>curl\lib\vtls</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\vtls\curl_schannel.c">
+      <Filter>curl\lib\vtls</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\vtls\cyassl.c">
+      <Filter>curl\lib\vtls</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\vtls\gskit.c">
+      <Filter>curl\lib\vtls</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\vtls\gtls.c">
+      <Filter>curl\lib\vtls</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\vtls\nss.c">
+      <Filter>curl\lib\vtls</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\vtls\openssl.c">
+      <Filter>curl\lib\vtls</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\vtls\polarssl.c">
+      <Filter>curl\lib\vtls</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\vtls\polarssl_threadlock.c">
+      <Filter>curl\lib\vtls</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\vtls\vtls.c">
+      <Filter>curl\lib\vtls</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
