@@ -4,9 +4,6 @@
 [submodule "libssh2"]
 	path = libssh2
 	url = git://github.com/libssh2/libssh2
-[submodule "build/gyp"]
-	path = build/gyp
-	url = git://github.com/svn2github/gyp.git
 [submodule "zlib"]
 	path = zlib
 	url = https://github.com/madler/zlib
