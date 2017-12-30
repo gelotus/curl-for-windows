@@ -3,7 +3,7 @@
 	url = git://github.com/bagder/curl.git
 [submodule "libssh2"]
 	path = libssh2
-	url = git://git.libssh2.org/libssh2.git
+	url = git://github.com/libssh2/libssh2
 [submodule "build/gyp"]
 	path = build/gyp
 	url = git://github.com/svn2github/gyp.git
