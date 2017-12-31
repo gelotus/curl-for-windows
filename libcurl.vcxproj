@@ -51,7 +51,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>build;curl;curl\lib;curl\include;openssl\openssl\include;openssl\openssl\include\openssl;zlib;contrib\minizip;libssh2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>curl;curl\lib;curl\include;openssl\openssl\include;openssl\openssl\include\openssl;zlib;contrib\minizip;libssh2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <CompileAsWinRT>false</CompileAsWinRT>
       <MinimalRebuild>false</MinimalRebuild>
@@ -77,7 +77,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>build;curl;curl\lib;curl\include;openssl\openssl\include;openssl\openssl\include\openssl;zlib;contrib\minizip;libssh2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>curl;curl\lib;curl\include;openssl\openssl\include;openssl\openssl\include\openssl;zlib;contrib\minizip;libssh2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <CompileAsWinRT>false</CompileAsWinRT>
       <MinimalRebuild>false</MinimalRebuild>
@@ -102,7 +102,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>build;curl;curl\lib;curl\include;openssl\openssl\include;openssl\openssl\include\openssl;zlib;contrib\minizip;libssh2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>curl;curl\lib;curl\include;openssl\openssl\include;openssl\openssl\include\openssl;zlib;contrib\minizip;libssh2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>/MP %(AdditionalOptions)</AdditionalOptions>
       <CompileAsWinRT>false</CompileAsWinRT>
       <ExceptionHandling>false</ExceptionHandling>
@@ -139,7 +139,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>build;curl;curl\lib;curl\include;openssl\openssl\include;openssl\openssl\include\openssl;zlib;contrib\minizip;libssh2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>curl;curl\lib;curl\include;openssl\openssl\include;openssl\openssl\include\openssl;zlib;contrib\minizip;libssh2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>/MP %(AdditionalOptions)</AdditionalOptions>
       <CompileAsWinRT>false</CompileAsWinRT>
       <ExceptionHandling>false</ExceptionHandling>
@@ -174,7 +174,6 @@
     </ResourceCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="build\tool_hugehelp.c" />
     <ClCompile Include="curl\lib\amigaos.c" />
     <ClCompile Include="curl\lib\asyn-ares.c" />
     <ClCompile Include="curl\lib\asyn-thread.c" />
@@ -305,6 +304,7 @@
     <ClCompile Include="curl\lib\warnless.c" />
     <ClCompile Include="curl\lib\wildcard.c" />
     <ClCompile Include="curl\lib\x509asn1.c" />
+    <ClCompile Include="openssl\build\tool_hugehelp.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets" />

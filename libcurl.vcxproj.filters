@@ -744,9 +744,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="build\tool_hugehelp.c">
-      <Filter>build</Filter>
-    </ClCompile>
     <ClCompile Include="curl\lib\vauth\cleartext.c">
       <Filter>curl\lib\vauth</Filter>
     </ClCompile>
@@ -1136,6 +1133,9 @@
     </ClCompile>
     <ClCompile Include="curl\lib\url.c">
       <Filter>curl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl\build\tool_hugehelp.c">
+      <Filter>build</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
