@@ -25,11 +25,7 @@ Makefile
 /apps/tsget.pl
 /apps/md4.c
 
-# Auto generated headers
-/crypto/buildinf.h
-/apps/progs.h
-/crypto/include/internal/*_conf.h
-/openssl/include/opensslconf.h
+
 /util/domd
 
 # Executables
@@ -67,7 +63,6 @@ Makefile
 !/fuzz/*.*
 
 # Misc auto generated files
-/include/openssl/opensslconf.h
 /tools/c_rehash
 /tools/c_rehash.pl
 /util/shlib_wrap.sh
