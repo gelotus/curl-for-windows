@@ -739,10 +739,97 @@
     <Filter Include="curl\lib\vtls">
       <UniqueIdentifier>{5267A63B-2626-7A8B-4A11-117C255695CE}</UniqueIdentifier>
     </Filter>
+    <Filter Include="curl\lib\vauth">
+      <UniqueIdentifier>{40791bf7-8c24-4a92-a58c-f37e664b539a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="build\tool_hugehelp.c">
       <Filter>build</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\vauth\cleartext.c">
+      <Filter>curl\lib\vauth</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\vauth\cram.c">
+      <Filter>curl\lib\vauth</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\vauth\digest.c">
+      <Filter>curl\lib\vauth</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\vauth\digest_sspi.c">
+      <Filter>curl\lib\vauth</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\vauth\krb5_gssapi.c">
+      <Filter>curl\lib\vauth</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\vauth\krb5_sspi.c">
+      <Filter>curl\lib\vauth</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\vauth\ntlm.c">
+      <Filter>curl\lib\vauth</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\vauth\ntlm_sspi.c">
+      <Filter>curl\lib\vauth</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\vauth\oauth2.c">
+      <Filter>curl\lib\vauth</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\vauth\spnego_gssapi.c">
+      <Filter>curl\lib\vauth</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\vauth\spnego_sspi.c">
+      <Filter>curl\lib\vauth</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\vauth\vauth.c">
+      <Filter>curl\lib\vauth</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\vtls\darwinssl.c">
+      <Filter>curl\lib\vtls</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\vtls\gskit.c">
+      <Filter>curl\lib\vtls</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\vtls\gtls.c">
+      <Filter>curl\lib\vtls</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\vtls\mbedtls.c">
+      <Filter>curl\lib\vtls</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\vtls\nss.c">
+      <Filter>curl\lib\vtls</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\vtls\openssl.c">
+      <Filter>curl\lib\vtls</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\vtls\polarssl.c">
+      <Filter>curl\lib\vtls</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\vtls\polarssl_threadlock.c">
+      <Filter>curl\lib\vtls</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\vtls\schannel.c">
+      <Filter>curl\lib\vtls</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\vtls\vtls.c">
+      <Filter>curl\lib\vtls</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\vtls\axtls.c">
+      <Filter>curl\lib\vtls</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\vtls\cyassl.c">
+      <Filter>curl\lib\vtls</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\version.c">
+      <Filter>curl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\warnless.c">
+      <Filter>curl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\wildcard.c">
+      <Filter>curl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\x509asn1.c">
+      <Filter>curl\lib</Filter>
     </ClCompile>
     <ClCompile Include="curl\lib\amigaos.c">
       <Filter>curl\lib</Filter>
@@ -754,9 +841,6 @@
       <Filter>curl\lib</Filter>
     </ClCompile>
     <ClCompile Include="curl\lib\base64.c">
-      <Filter>curl\lib</Filter>
-    </ClCompile>
-    <ClCompile Include="curl\lib\bundles.c">
       <Filter>curl\lib</Filter>
     </ClCompile>
     <ClCompile Include="curl\lib\conncache.c">
@@ -772,6 +856,9 @@
       <Filter>curl\lib</Filter>
     </ClCompile>
     <ClCompile Include="curl\lib\curl_addrinfo.c">
+      <Filter>curl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\curl_des.c">
       <Filter>curl\lib</Filter>
     </ClCompile>
     <ClCompile Include="curl\lib\curl_endian.c">
@@ -792,13 +879,7 @@
     <ClCompile Include="curl\lib\curl_multibyte.c">
       <Filter>curl\lib</Filter>
     </ClCompile>
-    <ClCompile Include="curl\lib\curl_ntlm.c">
-      <Filter>curl\lib</Filter>
-    </ClCompile>
     <ClCompile Include="curl\lib\curl_ntlm_core.c">
-      <Filter>curl\lib</Filter>
-    </ClCompile>
-    <ClCompile Include="curl\lib\curl_ntlm_msgs.c">
       <Filter>curl\lib</Filter>
     </ClCompile>
     <ClCompile Include="curl\lib\curl_ntlm_wb.c">
@@ -808,12 +889,6 @@
       <Filter>curl\lib</Filter>
     </ClCompile>
     <ClCompile Include="curl\lib\curl_sasl.c">
-      <Filter>curl\lib</Filter>
-    </ClCompile>
-    <ClCompile Include="curl\lib\curl_sasl_gssapi.c">
-      <Filter>curl\lib</Filter>
-    </ClCompile>
-    <ClCompile Include="curl\lib\curl_sasl_sspi.c">
       <Filter>curl\lib</Filter>
     </ClCompile>
     <ClCompile Include="curl\lib\curl_sspi.c">
@@ -885,9 +960,6 @@
     <ClCompile Include="curl\lib\http.c">
       <Filter>curl\lib</Filter>
     </ClCompile>
-    <ClCompile Include="curl\lib\http2.c">
-      <Filter>curl\lib</Filter>
-    </ClCompile>
     <ClCompile Include="curl\lib\http_chunks.c">
       <Filter>curl\lib</Filter>
     </ClCompile>
@@ -897,10 +969,13 @@
     <ClCompile Include="curl\lib\http_negotiate.c">
       <Filter>curl\lib</Filter>
     </ClCompile>
-    <ClCompile Include="curl\lib\http_negotiate_sspi.c">
+    <ClCompile Include="curl\lib\http_ntlm.c">
       <Filter>curl\lib</Filter>
     </ClCompile>
     <ClCompile Include="curl\lib\http_proxy.c">
+      <Filter>curl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\http2.c">
       <Filter>curl\lib</Filter>
     </ClCompile>
     <ClCompile Include="curl\lib\idn_win32.c">
@@ -934,6 +1009,9 @@
       <Filter>curl\lib</Filter>
     </ClCompile>
     <ClCompile Include="curl\lib\memdebug.c">
+      <Filter>curl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\mime.c">
       <Filter>curl\lib</Filter>
     </ClCompile>
     <ClCompile Include="curl\lib\mprintf.c">
@@ -975,7 +1053,7 @@
     <ClCompile Include="curl\lib\progress.c">
       <Filter>curl\lib</Filter>
     </ClCompile>
-    <ClCompile Include="curl\lib\rawstr.c">
+    <ClCompile Include="curl\lib\rand.c">
       <Filter>curl\lib</Filter>
     </ClCompile>
     <ClCompile Include="curl\lib\rtsp.c">
@@ -988,6 +1066,12 @@
       <Filter>curl\lib</Filter>
     </ClCompile>
     <ClCompile Include="curl\lib\sendf.c">
+      <Filter>curl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\setopt.c">
+      <Filter>curl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\sha256.c">
       <Filter>curl\lib</Filter>
     </ClCompile>
     <ClCompile Include="curl\lib\share.c">
@@ -1020,10 +1104,10 @@
     <ClCompile Include="curl\lib\ssh.c">
       <Filter>curl\lib</Filter>
     </ClCompile>
-    <ClCompile Include="curl\lib\strdup.c">
+    <ClCompile Include="curl\lib\strcase.c">
       <Filter>curl\lib</Filter>
     </ClCompile>
-    <ClCompile Include="curl\lib\strequal.c">
+    <ClCompile Include="curl\lib\strdup.c">
       <Filter>curl\lib</Filter>
     </ClCompile>
     <ClCompile Include="curl\lib\strerror.c">
@@ -1033,6 +1117,9 @@
       <Filter>curl\lib</Filter>
     </ClCompile>
     <ClCompile Include="curl\lib\strtoofft.c">
+      <Filter>curl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\lib\system_win32.c">
       <Filter>curl\lib</Filter>
     </ClCompile>
     <ClCompile Include="curl\lib\telnet.c">
@@ -1049,51 +1136,6 @@
     </ClCompile>
     <ClCompile Include="curl\lib\url.c">
       <Filter>curl\lib</Filter>
-    </ClCompile>
-    <ClCompile Include="curl\lib\version.c">
-      <Filter>curl\lib</Filter>
-    </ClCompile>
-    <ClCompile Include="curl\lib\warnless.c">
-      <Filter>curl\lib</Filter>
-    </ClCompile>
-    <ClCompile Include="curl\lib\wildcard.c">
-      <Filter>curl\lib</Filter>
-    </ClCompile>
-    <ClCompile Include="curl\lib\x509asn1.c">
-      <Filter>curl\lib</Filter>
-    </ClCompile>
-    <ClCompile Include="curl\lib\vtls\axtls.c">
-      <Filter>curl\lib\vtls</Filter>
-    </ClCompile>
-    <ClCompile Include="curl\lib\vtls\curl_darwinssl.c">
-      <Filter>curl\lib\vtls</Filter>
-    </ClCompile>
-    <ClCompile Include="curl\lib\vtls\curl_schannel.c">
-      <Filter>curl\lib\vtls</Filter>
-    </ClCompile>
-    <ClCompile Include="curl\lib\vtls\cyassl.c">
-      <Filter>curl\lib\vtls</Filter>
-    </ClCompile>
-    <ClCompile Include="curl\lib\vtls\gskit.c">
-      <Filter>curl\lib\vtls</Filter>
-    </ClCompile>
-    <ClCompile Include="curl\lib\vtls\gtls.c">
-      <Filter>curl\lib\vtls</Filter>
-    </ClCompile>
-    <ClCompile Include="curl\lib\vtls\nss.c">
-      <Filter>curl\lib\vtls</Filter>
-    </ClCompile>
-    <ClCompile Include="curl\lib\vtls\openssl.c">
-      <Filter>curl\lib\vtls</Filter>
-    </ClCompile>
-    <ClCompile Include="curl\lib\vtls\polarssl.c">
-      <Filter>curl\lib\vtls</Filter>
-    </ClCompile>
-    <ClCompile Include="curl\lib\vtls\polarssl_threadlock.c">
-      <Filter>curl\lib\vtls</Filter>
-    </ClCompile>
-    <ClCompile Include="curl\lib\vtls\vtls.c">
-      <Filter>curl\lib\vtls</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

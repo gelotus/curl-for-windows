@@ -18,6 +18,29 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="libssh2\src\agent.c" />
+    <ClCompile Include="libssh2\src\channel.c" />
+    <ClCompile Include="libssh2\src\comp.c" />
+    <ClCompile Include="libssh2\src\crypt.c" />
+    <ClCompile Include="libssh2\src\global.c" />
+    <ClCompile Include="libssh2\src\hostkey.c" />
+    <ClCompile Include="libssh2\src\keepalive.c" />
+    <ClCompile Include="libssh2\src\kex.c" />
+    <ClCompile Include="libssh2\src\knownhost.c" />
+    <ClCompile Include="libssh2\src\mac.c" />
+    <ClCompile Include="libssh2\src\misc.c" />
+    <ClCompile Include="libssh2\src\openssl.c" />
+    <ClCompile Include="libssh2\src\packet.c" />
+    <ClCompile Include="libssh2\src\pem.c" />
+    <ClCompile Include="libssh2\src\publickey.c" />
+    <ClCompile Include="libssh2\src\scp.c" />
+    <ClCompile Include="libssh2\src\session.c" />
+    <ClCompile Include="libssh2\src\sftp.c" />
+    <ClCompile Include="libssh2\src\transport.c" />
+    <ClCompile Include="libssh2\src\userauth.c" />
+    <ClCompile Include="libssh2\src\version.c" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{73D72C79-1C65-76EC-874E-729E13981233}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
@@ -58,7 +81,7 @@
       <OmitFramePointers>false</OmitFramePointers>
       <Optimization>Disabled</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
-      <PreprocessorDefinitions>NETSNMP_ENABLE_IPV6;DEBUG;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>LIBSSH2DEBUG;LIBSSH2_CLEAR_MEMORY;LIBSSH2_DH_GEX_NEW=1;LIBSSH2_OPENSSL;LIBSSH2_WIN32;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;DEBUG;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
     </ClCompile>
     <Lib>
@@ -84,7 +107,7 @@
       <OmitFramePointers>false</OmitFramePointers>
       <Optimization>Disabled</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
-      <PreprocessorDefinitions>NETSNMP_ENABLE_IPV6;DEBUG;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>LIBSSH2DEBUG;LIBSSH2_CLEAR_MEMORY;LIBSSH2_DH_GEX_NEW=1;LIBSSH2_OPENSSL;LIBSSH2_WIN32;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;DEBUG;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
     </ClCompile>
     <Lib>
@@ -113,7 +136,7 @@
       <OmitFramePointers>true</OmitFramePointers>
       <Optimization>Full</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
-      <PreprocessorDefinitions>NETSNMP_ENABLE_IPV6;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>LIBSSH2_CLEAR_MEMORY;LIBSSH2_DH_GEX_NEW=1;LIBSSH2_OPENSSL;LIBSSH2_WIN32;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
       <WholeProgramOptimization>true</WholeProgramOptimization>
@@ -150,7 +173,7 @@
       <OmitFramePointers>true</OmitFramePointers>
       <Optimization>Full</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
-      <PreprocessorDefinitions>NETSNMP_ENABLE_IPV6;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>LIBSSH2_CLEAR_MEMORY;LIBSSH2_DH_GEX_NEW=1;LIBSSH2_OPENSSL;LIBSSH2_WIN32;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
       <WholeProgramOptimization>true</WholeProgramOptimization>
@@ -173,30 +196,6 @@
       <PreprocessorDefinitions>NETSNMP_ENABLE_IPV6;%(PreprocessorDefinitions);%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ResourceCompile>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="libssh2\src\agent.c" />
-    <ClCompile Include="libssh2\src\channel.c" />
-    <ClCompile Include="libssh2\src\comp.c" />
-    <ClCompile Include="libssh2\src\crypt.c" />
-    <ClCompile Include="libssh2\src\global.c" />
-    <ClCompile Include="libssh2\src\hostkey.c" />
-    <ClCompile Include="libssh2\src\keepalive.c" />
-    <ClCompile Include="libssh2\src\kex.c" />
-    <ClCompile Include="libssh2\src\knownhost.c" />
-    <ClCompile Include="libssh2\src\libgcrypt.c" />
-    <ClCompile Include="libssh2\src\mac.c" />
-    <ClCompile Include="libssh2\src\misc.c" />
-    <ClCompile Include="libssh2\src\openssl.c" />
-    <ClCompile Include="libssh2\src\packet.c" />
-    <ClCompile Include="libssh2\src\pem.c" />
-    <ClCompile Include="libssh2\src\publickey.c" />
-    <ClCompile Include="libssh2\src\scp.c" />
-    <ClCompile Include="libssh2\src\session.c" />
-    <ClCompile Include="libssh2\src\sftp.c" />
-    <ClCompile Include="libssh2\src\transport.c" />
-    <ClCompile Include="libssh2\src\userauth.c" />
-    <ClCompile Include="libssh2\src\version.c" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets" />
 </Project>

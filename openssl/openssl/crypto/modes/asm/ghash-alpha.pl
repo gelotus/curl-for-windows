@@ -1,4 +1,11 @@
-#!/usr/bin/env perl
+#! /usr/bin/env perl
+# Copyright 2010-2016 The OpenSSL Project Authors. All Rights Reserved.
+#
+# Licensed under the OpenSSL license (the "License").  You may not use
+# this file except in compliance with the License.  You can obtain a copy
+# in the file LICENSE in the source distribution or at
+# https://www.openssl.org/source/license.html
+
 #
 # ====================================================================
 # Written by Andy Polyakov <appro@openssl.org> for the OpenSSL
@@ -266,8 +273,8 @@ gcm_gmult_4bit:
 	ldq	$Xlo,8($Xi)
 	ldq	$Xhi,0($Xi)
 
-	br	$rem_4bit,.Lpic1
-.Lpic1:	lda	$rem_4bit,rem_4bit-.Lpic1($rem_4bit)
+	bsr	$t0,picmeup
+	nop
 ___
 
 	&loop();
@@ -341,8 +348,8 @@ gcm_ghash_4bit:
 	ldq	$Xhi,0($Xi)
 	ldq	$Xlo,8($Xi)
 
-	br	$rem_4bit,.Lpic2
-.Lpic2:	lda	$rem_4bit,rem_4bit-.Lpic2($rem_4bit)
+	bsr	$t0,picmeup
+	nop
 
 .Louter:
 	extql	$inhi,$inp,$inhi
@@ -436,16 +443,25 @@ $code.=<<___;
 .end	gcm_ghash_4bit
 
 .align	4
+.ent	picmeup
+picmeup:
+	.frame	sp,0,$t0
+	.prologue 0
+	br	$rem_4bit,.Lpic
+.Lpic:	lda	$rem_4bit,12($rem_4bit)
+	ret	($t0)
+.end	picmeup
+	nop
 rem_4bit:
-	.quad	0x0000<<48, 0x1C20<<48, 0x3840<<48, 0x2460<<48
-	.quad	0x7080<<48, 0x6CA0<<48, 0x48C0<<48, 0x54E0<<48
-	.quad	0xE100<<48, 0xFD20<<48, 0xD940<<48, 0xC560<<48
-	.quad	0x9180<<48, 0x8DA0<<48, 0xA9C0<<48, 0xB5E0<<48
+	.long	0,0x0000<<16, 0,0x1C20<<16, 0,0x3840<<16, 0,0x2460<<16
+	.long	0,0x7080<<16, 0,0x6CA0<<16, 0,0x48C0<<16, 0,0x54E0<<16
+	.long	0,0xE100<<16, 0,0xFD20<<16, 0,0xD940<<16, 0,0xC560<<16
+	.long	0,0x9180<<16, 0,0x8DA0<<16, 0,0xA9C0<<16, 0,0xB5E0<<16
 .ascii	"GHASH for Alpha, CRYPTOGAMS by <appro\@openssl.org>"
 .align	4
 
 ___
-$output=shift and open STDOUT,">$output";
+$output=pop and open STDOUT,">$output";
 print $code;
 close STDOUT;
 

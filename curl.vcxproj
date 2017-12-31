@@ -58,7 +58,7 @@
       <OmitFramePointers>false</OmitFramePointers>
       <Optimization>Disabled</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
-      <PreprocessorDefinitions>CURL_STATICLIB;DEBUG;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>USE_SSLEAY;USE_IPV6;USE_LIBSSH2;USE_ZLIB;USE_WINDOWS_SSPI;HAVE_SPNEGO;HAVE_ZLIB_H;HAVE_LIBSSH2_H;HAVE_ZLIB;HAVE_LIBZ;BUILDING_LIBCURL;CURL_STATICLIB;DEBUG;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
     </ClCompile>
     <Link>
@@ -81,7 +81,7 @@
       <OmitFramePointers>false</OmitFramePointers>
       <Optimization>Disabled</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
-      <PreprocessorDefinitions>CURL_STATICLIB;DEBUG;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>USE_SSLEAY;USE_IPV6;USE_LIBSSH2;USE_ZLIB;USE_WINDOWS_SSPI;HAVE_SPNEGO;HAVE_ZLIB_H;HAVE_LIBSSH2_H;HAVE_ZLIB;HAVE_LIBZ;BUILDING_LIBCURL;CURL_STATICLIB;DEBUG;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
     </ClCompile>
     <Link>
@@ -107,7 +107,7 @@
       <OmitFramePointers>true</OmitFramePointers>
       <Optimization>Full</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
-      <PreprocessorDefinitions>CURL_STATICLIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>USE_SSLEAY;USE_IPV6;USE_LIBSSH2;USE_ZLIB;USE_WINDOWS_SSPI;HAVE_SPNEGO;HAVE_ZLIB_H;HAVE_LIBSSH2_H;HAVE_ZLIB;HAVE_LIBZ;BUILDING_LIBCURL;CURL_STATICLIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
       <WholeProgramOptimization>true</WholeProgramOptimization>
@@ -143,7 +143,7 @@
       <OmitFramePointers>true</OmitFramePointers>
       <Optimization>Full</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
-      <PreprocessorDefinitions>CURL_STATICLIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>USE_SSLEAY;USE_IPV6;USE_LIBSSH2;USE_ZLIB;USE_WINDOWS_SSPI;HAVE_SPNEGO;HAVE_ZLIB_H;HAVE_LIBSSH2_H;HAVE_ZLIB;HAVE_LIBZ;BUILDING_LIBCURL;CURL_STATICLIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
       <WholeProgramOptimization>true</WholeProgramOptimization>
@@ -166,6 +166,25 @@
     </ResourceCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ProjectReference Include="libcurl.vcxproj">
+      <Project>{B286D4FB-76D5-C357-4775-13FF295983D1}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="openssl.vcxproj">
+      <Project>{ED11D5F3-A171-D94D-D5CB-B4FE94EA8C79}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="zlib.vcxproj">
+      <Project>{818D40DF-DAA8-4209-2B85-B4322EC87525}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="libssh2.vcxproj">
+      <Project>{73D72C79-1C65-76EC-874E-729E13981233}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="curl\src\slist_wc.c" />
     <ClCompile Include="curl\src\tool_binmode.c" />
     <ClCompile Include="curl\src\tool_bname.c" />
     <ClCompile Include="curl\src\tool_cb_dbg.c" />
@@ -188,7 +207,6 @@
     <ClCompile Include="curl\src\tool_libinfo.c" />
     <ClCompile Include="curl\src\tool_main.c" />
     <ClCompile Include="curl\src\tool_metalink.c" />
-    <ClCompile Include="curl\src\tool_mfiles.c" />
     <ClCompile Include="curl\src\tool_msgs.c" />
     <ClCompile Include="curl\src\tool_operate.c" />
     <ClCompile Include="curl\src\tool_operhlp.c" />
@@ -197,30 +215,12 @@
     <ClCompile Include="curl\src\tool_parsecfg.c" />
     <ClCompile Include="curl\src\tool_setopt.c" />
     <ClCompile Include="curl\src\tool_sleep.c" />
+    <ClCompile Include="curl\src\tool_strdup.c" />
     <ClCompile Include="curl\src\tool_urlglob.c" />
     <ClCompile Include="curl\src\tool_util.c" />
     <ClCompile Include="curl\src\tool_vms.c" />
-    <ClCompile Include="curl\src\tool_writeenv.c" />
     <ClCompile Include="curl\src\tool_writeout.c" />
     <ClCompile Include="curl\src\tool_xattr.c" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="libcurl.vcxproj">
-      <Project>{B286D4FB-76D5-C357-4775-13FF295983D1}</Project>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-    <ProjectReference Include="openssl.vcxproj">
-      <Project>{ED11D5F3-A171-D94D-D5CB-B4FE94EA8C79}</Project>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-    <ProjectReference Include="zlib.vcxproj">
-      <Project>{818D40DF-DAA8-4209-2B85-B4322EC87525}</Project>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-    <ProjectReference Include="libssh2.vcxproj">
-      <Project>{73D72C79-1C65-76EC-874E-729E13981233}</Project>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets" />

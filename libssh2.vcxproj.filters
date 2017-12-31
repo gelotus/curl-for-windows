@@ -135,42 +135,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="libssh2\src\agent.c">
-      <Filter>libssh2\src</Filter>
-    </ClCompile>
-    <ClCompile Include="libssh2\src\channel.c">
-      <Filter>libssh2\src</Filter>
-    </ClCompile>
-    <ClCompile Include="libssh2\src\comp.c">
-      <Filter>libssh2\src</Filter>
-    </ClCompile>
-    <ClCompile Include="libssh2\src\crypt.c">
-      <Filter>libssh2\src</Filter>
-    </ClCompile>
-    <ClCompile Include="libssh2\src\global.c">
-      <Filter>libssh2\src</Filter>
-    </ClCompile>
-    <ClCompile Include="libssh2\src\hostkey.c">
-      <Filter>libssh2\src</Filter>
-    </ClCompile>
-    <ClCompile Include="libssh2\src\keepalive.c">
-      <Filter>libssh2\src</Filter>
-    </ClCompile>
-    <ClCompile Include="libssh2\src\kex.c">
-      <Filter>libssh2\src</Filter>
-    </ClCompile>
-    <ClCompile Include="libssh2\src\knownhost.c">
-      <Filter>libssh2\src</Filter>
-    </ClCompile>
-    <ClCompile Include="libssh2\src\libgcrypt.c">
-      <Filter>libssh2\src</Filter>
-    </ClCompile>
-    <ClCompile Include="libssh2\src\mac.c">
-      <Filter>libssh2\src</Filter>
-    </ClCompile>
-    <ClCompile Include="libssh2\src\misc.c">
-      <Filter>libssh2\src</Filter>
-    </ClCompile>
     <ClCompile Include="libssh2\src\openssl.c">
       <Filter>libssh2\src</Filter>
     </ClCompile>
@@ -199,6 +163,39 @@
       <Filter>libssh2\src</Filter>
     </ClCompile>
     <ClCompile Include="libssh2\src\version.c">
+      <Filter>libssh2\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libssh2\src\agent.c">
+      <Filter>libssh2\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libssh2\src\channel.c">
+      <Filter>libssh2\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libssh2\src\comp.c">
+      <Filter>libssh2\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libssh2\src\crypt.c">
+      <Filter>libssh2\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libssh2\src\global.c">
+      <Filter>libssh2\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libssh2\src\hostkey.c">
+      <Filter>libssh2\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libssh2\src\keepalive.c">
+      <Filter>libssh2\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libssh2\src\kex.c">
+      <Filter>libssh2\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libssh2\src\knownhost.c">
+      <Filter>libssh2\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libssh2\src\mac.c">
+      <Filter>libssh2\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libssh2\src\misc.c">
       <Filter>libssh2\src</Filter>
     </ClCompile>
   </ItemGroup>

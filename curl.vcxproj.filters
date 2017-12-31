@@ -291,9 +291,6 @@
     <ClCompile Include="curl\src\tool_metalink.c">
       <Filter>curl\src</Filter>
     </ClCompile>
-    <ClCompile Include="curl\src\tool_mfiles.c">
-      <Filter>curl\src</Filter>
-    </ClCompile>
     <ClCompile Include="curl\src\tool_msgs.c">
       <Filter>curl\src</Filter>
     </ClCompile>
@@ -318,6 +315,9 @@
     <ClCompile Include="curl\src\tool_sleep.c">
       <Filter>curl\src</Filter>
     </ClCompile>
+    <ClCompile Include="curl\src\tool_strdup.c">
+      <Filter>curl\src</Filter>
+    </ClCompile>
     <ClCompile Include="curl\src\tool_urlglob.c">
       <Filter>curl\src</Filter>
     </ClCompile>
@@ -327,13 +327,13 @@
     <ClCompile Include="curl\src\tool_vms.c">
       <Filter>curl\src</Filter>
     </ClCompile>
-    <ClCompile Include="curl\src\tool_writeenv.c">
-      <Filter>curl\src</Filter>
-    </ClCompile>
     <ClCompile Include="curl\src\tool_writeout.c">
       <Filter>curl\src</Filter>
     </ClCompile>
     <ClCompile Include="curl\src\tool_xattr.c">
+      <Filter>curl\src</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\src\slist_wc.c">
       <Filter>curl\src</Filter>
     </ClCompile>
   </ItemGroup>

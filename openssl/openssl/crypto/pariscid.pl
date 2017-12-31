@@ -1,4 +1,11 @@
-#!/usr/bin/env perl
+#! /usr/bin/env perl
+# Copyright 2009-2016 The OpenSSL Project Authors. All Rights Reserved.
+#
+# Licensed under the OpenSSL license (the "License").  You may not use
+# this file except in compliance with the License.  You can obtain a copy
+# in the file LICENSE in the source distribution or at
+# https://www.openssl.org/source/license.html
+
 
 $flavour = shift;
 $output = shift;
@@ -97,33 +104,64 @@ OPENSSL_cleanse
 	.PROC
 	.CALLINFO	NO_CALLS
 	.ENTRY
-	cmpib,*=	0,$len,Ldone
+	cmpib,*=	0,$len,L\$done
 	nop
-	cmpib,*>>=	15,$len,Little
+	cmpib,*>>=	15,$len,L\$ittle
 	ldi		$SIZE_T-1,%r1
 
-Lalign
+L\$align
 	and,*<>		$inp,%r1,%r28
-	b,n		Laligned
+	b,n		L\$aligned
 	stb		%r0,0($inp)
 	ldo		-1($len),$len
-	b		Lalign
+	b		L\$align
 	ldo		1($inp),$inp
 
-Laligned
+L\$aligned
 	andcm		$len,%r1,%r28
-Lot
+L\$ot
 	$ST		%r0,0($inp)
-	addib,*<>	-$SIZE_T,%r28,Lot
+	addib,*<>	-$SIZE_T,%r28,L\$ot
 	ldo		$SIZE_T($inp),$inp
 
 	and,*<>		$len,%r1,$len
-	b,n		Ldone
-Little
+	b,n		L\$done
+L\$ittle
 	stb		%r0,0($inp)
-	addib,*<>	-1,$len,Little
+	addib,*<>	-1,$len,L\$ittle
 	ldo		1($inp),$inp
-Ldone
+L\$done
+	bv		($rp)
+	.EXIT
+	nop
+	.PROCEND
+___
+}
+{
+my ($in1,$in2,$len)=("%r26","%r25","%r24");
+
+$code.=<<___;
+	.EXPORT	CRYPTO_memcmp,ENTRY,ARGW0=GR,ARGW1=GR,ARGW1=GR
+	.ALIGN	8
+CRYPTO_memcmp
+	.PROC
+	.CALLINFO	NO_CALLS
+	.ENTRY
+	cmpib,*=	0,$len,L\$no_data
+	xor		$rv,$rv,$rv
+
+L\$oop_cmp
+	ldb		0($in1),%r19
+	ldb		0($in2),%r20
+	ldo		1($in1),$in1
+	ldo		1($in2),$in2
+	xor		%r19,%r20,%r29
+	addib,*<>	-1,$len,L\$oop_cmp
+	or		%r29,$rv,$rv
+
+	sub		%r0,$rv,%r29
+	extru		%r29,31,1,$rv
+L\$no_data
 	bv		($rp)
 	.EXIT
 	nop
@@ -151,7 +189,7 @@ OPENSSL_instrument_bus
 	ldw		0($out),$tick
 	add		$diff,$tick,$tick
 	stw		$tick,0($out)
-Loop
+L\$oop
 	mfctl		%cr16,$tick
 	sub		$tick,$lasttick,$diff
 	copy		$tick,$lasttick
@@ -161,7 +199,7 @@ Loop
 	add		$diff,$tick,$tick
 	stw		$tick,0($out)
 
-	addib,<>	-1,$cnt,Loop
+	addib,<>	-1,$cnt,L\$oop
 	addi		4,$out,$out
 
 	bv		($rp)
@@ -190,14 +228,14 @@ OPENSSL_instrument_bus2
 	mfctl		%cr16,$tick
 	sub		$tick,$lasttick,$diff
 	copy		$tick,$lasttick
-Loop2
+L\$oop2
 	copy		$diff,$lastdiff
 	fdc		0($out)
 	ldw		0($out),$tick
 	add		$diff,$tick,$tick
 	stw		$tick,0($out)
 
-	addib,=		-1,$max,Ldone2
+	addib,=		-1,$max,L\$done2
 	nop
 
 	mfctl		%cr16,$tick
@@ -208,17 +246,18 @@ Loop2
 
 	ldi		1,%r1
 	xor		%r1,$tick,$tick
-	addb,<>		$tick,$cnt,Loop2
+	addb,<>		$tick,$cnt,L\$oop2
 	shladd,l	$tick,2,$out,$out
-Ldone2
+L\$done2
 	bv		($rp)
 	.EXIT
 	add		$rv,$cnt,$rv
 	.PROCEND
 ___
 }
-$code =~ s/cmpib,\*/comib,/gm if ($SIZE_T==4);
-$code =~ s/,\*/,/gm if ($SIZE_T==4);
+$code =~ s/cmpib,\*/comib,/gm	if ($SIZE_T==4);
+$code =~ s/,\*/,/gm		if ($SIZE_T==4);
+$code =~ s/\bbv\b/bve/gm	if ($SIZE_T==8);
 print $code;
 close STDOUT;
 
