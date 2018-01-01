@@ -51,7 +51,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>.;openssl\openssl;openssl\openssl\crypto;openssl\openssl\crypto\asn1;openssl\openssl\crypto\evp;openssl\openssl\crypto\md2;openssl\openssl\crypto\modes;openssl\openssl\crypto\store;openssl\openssl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.;openssl\openssl;openssl\openssl\crypto;openssl\openssl\crypto\asn1;openssl\openssl\crypto\evp;openssl\openssl\crypto\md2;openssl\openssl\crypto\modes;openssl\openssl\crypto\include;openssl\openssl\crypto\store;openssl\openssl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <CompileAsWinRT>false</CompileAsWinRT>
       <MinimalRebuild>false</MinimalRebuild>
@@ -77,7 +77,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>.;openssl\openssl;openssl\openssl\crypto;openssl\openssl\crypto\asn1;openssl\openssl\crypto\evp;openssl\openssl\crypto\md2;openssl\openssl\crypto\modes;openssl\openssl\crypto\store;openssl\openssl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.;openssl\openssl;openssl\openssl\crypto;openssl\openssl\crypto\asn1;openssl\openssl\crypto\evp;openssl\openssl\crypto\md2;openssl\openssl\crypto\modes;openssl\openssl\crypto\include;openssl\openssl\crypto\store;openssl\openssl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <CompileAsWinRT>false</CompileAsWinRT>
       <MinimalRebuild>false</MinimalRebuild>
@@ -140,7 +140,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>.;openssl\openssl;openssl\openssl\crypto;openssl\openssl\crypto\asn1;openssl\openssl\crypto\evp;openssl\openssl\crypto\md2;openssl\openssl\crypto\modes;openssl\openssl\crypto\store;openssl\openssl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.;openssl\openssl;openssl\openssl\crypto;openssl\openssl\crypto\asn1;openssl\openssl\crypto\evp;openssl\openssl\crypto\md2;openssl\openssl\crypto\modes;openssl\openssl\crypto\include;openssl\openssl\crypto\store;openssl\openssl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>/MP %(AdditionalOptions)</AdditionalOptions>
       <CompileAsWinRT>false</CompileAsWinRT>
       <ExceptionHandling>false</ExceptionHandling>
