@@ -184,6 +184,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="conf\tool_hugehelp.c" />
     <ClCompile Include="curl\src\slist_wc.c" />
     <ClCompile Include="curl\src\tool_binmode.c" />
     <ClCompile Include="curl\src\tool_bname.c" />

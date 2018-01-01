@@ -3,5 +3,5 @@
 #endif
 
 #ifdef X86
-#include "./config/win32/bn_conf.h"
+#include "./win32/bn_conf.h"
 #endif

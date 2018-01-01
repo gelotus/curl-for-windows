@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="build">
-      <UniqueIdentifier>{D5519164-BF26-36DA-740B-76CEFC1827F4}</UniqueIdentifier>
-    </Filter>
     <Filter Include="curl">
       <UniqueIdentifier>{A400525E-1755-1473-C382-AD778C5A587D}</UniqueIdentifier>
     </Filter>
@@ -1133,9 +1130,6 @@
     </ClCompile>
     <ClCompile Include="curl\lib\url.c">
       <Filter>curl\lib</Filter>
-    </ClCompile>
-    <ClCompile Include="openssl\build\tool_hugehelp.c">
-      <Filter>build</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

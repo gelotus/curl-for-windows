@@ -336,5 +336,8 @@
     <ClCompile Include="curl\src\slist_wc.c">
       <Filter>curl\src</Filter>
     </ClCompile>
+    <ClCompile Include="conf\tool_hugehelp.c">
+      <Filter>curl\src</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

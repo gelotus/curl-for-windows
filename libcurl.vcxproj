@@ -304,7 +304,6 @@
     <ClCompile Include="curl\lib\warnless.c" />
     <ClCompile Include="curl\lib\wildcard.c" />
     <ClCompile Include="curl\lib\x509asn1.c" />
-    <ClCompile Include="openssl\build\tool_hugehelp.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets" />
