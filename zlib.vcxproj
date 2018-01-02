@@ -176,24 +176,6 @@
     </ResourceCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="zlib\contrib\minizip\ioapi.h" />
-    <ClInclude Include="zlib\contrib\minizip\iowin32.h" />
-    <ClInclude Include="zlib\contrib\minizip\unzip.h" />
-    <ClInclude Include="zlib\contrib\minizip\zip.h" />
-    <ClInclude Include="zlib\crc32.h" />
-    <ClInclude Include="zlib\deflate.h" />
-    <ClInclude Include="zlib\gzguts.h" />
-    <ClInclude Include="zlib\inffast.h" />
-    <ClInclude Include="zlib\inffixed.h" />
-    <ClInclude Include="zlib\inflate.h" />
-    <ClInclude Include="zlib\inftrees.h" />
-    <ClInclude Include="build\mozzconf.h" />
-    <ClInclude Include="zlib\trees.h" />
-    <ClInclude Include="zlib\zconf.h" />
-    <ClInclude Include="zlib\zlib.h" />
-    <ClInclude Include="zlib\zutil.h" />
-  </ItemGroup>
-  <ItemGroup>
     <ClCompile Include="zlib\contrib\minizip\ioapi.c" />
     <ClCompile Include="zlib\contrib\minizip\iowin32.c" />
     <ClCompile Include="zlib\contrib\minizip\unzip.c" />

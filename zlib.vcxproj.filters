@@ -10,176 +10,20 @@
     <Filter Include="zlib\contrib\minizip">
       <UniqueIdentifier>{7C405FF2-FD9C-D8D9-BF9F-0A3170FBAD84}</UniqueIdentifier>
     </Filter>
-    <Filter Include="zlib">
-      <UniqueIdentifier>{C0DCEB43-4CB9-1A24-382F-7A9A302B6901}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="zlib\contrib">
-      <UniqueIdentifier>{FFE401C3-86F9-30B5-D273-E3FA16649863}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="zlib\contrib\minizip">
-      <UniqueIdentifier>{7C405FF2-FD9C-D8D9-BF9F-0A3170FBAD84}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="zlib">
-      <UniqueIdentifier>{C0DCEB43-4CB9-1A24-382F-7A9A302B6901}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="zlib\contrib">
-      <UniqueIdentifier>{FFE401C3-86F9-30B5-D273-E3FA16649863}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="zlib\contrib\minizip">
-      <UniqueIdentifier>{7C405FF2-FD9C-D8D9-BF9F-0A3170FBAD84}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="zlib">
-      <UniqueIdentifier>{C0DCEB43-4CB9-1A24-382F-7A9A302B6901}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="zlib\contrib">
-      <UniqueIdentifier>{FFE401C3-86F9-30B5-D273-E3FA16649863}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="zlib\contrib\minizip">
-      <UniqueIdentifier>{7C405FF2-FD9C-D8D9-BF9F-0A3170FBAD84}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="zlib">
-      <UniqueIdentifier>{C0DCEB43-4CB9-1A24-382F-7A9A302B6901}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="zlib\contrib">
-      <UniqueIdentifier>{FFE401C3-86F9-30B5-D273-E3FA16649863}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="zlib\contrib\minizip">
-      <UniqueIdentifier>{7C405FF2-FD9C-D8D9-BF9F-0A3170FBAD84}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="zlib">
-      <UniqueIdentifier>{C0DCEB43-4CB9-1A24-382F-7A9A302B6901}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="zlib\contrib">
-      <UniqueIdentifier>{FFE401C3-86F9-30B5-D273-E3FA16649863}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="zlib\contrib\minizip">
-      <UniqueIdentifier>{7C405FF2-FD9C-D8D9-BF9F-0A3170FBAD84}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="zlib">
-      <UniqueIdentifier>{C0DCEB43-4CB9-1A24-382F-7A9A302B6901}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="zlib\contrib">
-      <UniqueIdentifier>{FFE401C3-86F9-30B5-D273-E3FA16649863}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="zlib\contrib\minizip">
-      <UniqueIdentifier>{7C405FF2-FD9C-D8D9-BF9F-0A3170FBAD84}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="zlib">
-      <UniqueIdentifier>{C0DCEB43-4CB9-1A24-382F-7A9A302B6901}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="zlib\contrib">
-      <UniqueIdentifier>{FFE401C3-86F9-30B5-D273-E3FA16649863}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="zlib\contrib\minizip">
-      <UniqueIdentifier>{7C405FF2-FD9C-D8D9-BF9F-0A3170FBAD84}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="zlib">
-      <UniqueIdentifier>{C0DCEB43-4CB9-1A24-382F-7A9A302B6901}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="zlib">
-      <UniqueIdentifier>{C0DCEB43-4CB9-1A24-382F-7A9A302B6901}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="zlib">
-      <UniqueIdentifier>{C0DCEB43-4CB9-1A24-382F-7A9A302B6901}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="zlib">
-      <UniqueIdentifier>{C0DCEB43-4CB9-1A24-382F-7A9A302B6901}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="zlib">
-      <UniqueIdentifier>{C0DCEB43-4CB9-1A24-382F-7A9A302B6901}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="zlib">
-      <UniqueIdentifier>{C0DCEB43-4CB9-1A24-382F-7A9A302B6901}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="zlib">
-      <UniqueIdentifier>{C0DCEB43-4CB9-1A24-382F-7A9A302B6901}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="zlib">
-      <UniqueIdentifier>{C0DCEB43-4CB9-1A24-382F-7A9A302B6901}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="zlib">
-      <UniqueIdentifier>{C0DCEB43-4CB9-1A24-382F-7A9A302B6901}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="zlib">
-      <UniqueIdentifier>{C0DCEB43-4CB9-1A24-382F-7A9A302B6901}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="zlib">
-      <UniqueIdentifier>{C0DCEB43-4CB9-1A24-382F-7A9A302B6901}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="zlib">
-      <UniqueIdentifier>{C0DCEB43-4CB9-1A24-382F-7A9A302B6901}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="zlib">
-      <UniqueIdentifier>{C0DCEB43-4CB9-1A24-382F-7A9A302B6901}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="zlib">
-      <UniqueIdentifier>{C0DCEB43-4CB9-1A24-382F-7A9A302B6901}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="zlib">
-      <UniqueIdentifier>{C0DCEB43-4CB9-1A24-382F-7A9A302B6901}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="zlib">
-      <UniqueIdentifier>{C0DCEB43-4CB9-1A24-382F-7A9A302B6901}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="zlib">
-      <UniqueIdentifier>{C0DCEB43-4CB9-1A24-382F-7A9A302B6901}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="zlib">
-      <UniqueIdentifier>{C0DCEB43-4CB9-1A24-382F-7A9A302B6901}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="zlib">
-      <UniqueIdentifier>{C0DCEB43-4CB9-1A24-382F-7A9A302B6901}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="build">
-      <UniqueIdentifier>{D5519164-BF26-36DA-740B-76CEFC1827F4}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="zlib">
-      <UniqueIdentifier>{C0DCEB43-4CB9-1A24-382F-7A9A302B6901}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="zlib">
-      <UniqueIdentifier>{C0DCEB43-4CB9-1A24-382F-7A9A302B6901}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="zlib">
-      <UniqueIdentifier>{C0DCEB43-4CB9-1A24-382F-7A9A302B6901}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="zlib">
-      <UniqueIdentifier>{C0DCEB43-4CB9-1A24-382F-7A9A302B6901}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="zlib">
-      <UniqueIdentifier>{C0DCEB43-4CB9-1A24-382F-7A9A302B6901}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="zlib">
-      <UniqueIdentifier>{C0DCEB43-4CB9-1A24-382F-7A9A302B6901}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="zlib">
-      <UniqueIdentifier>{C0DCEB43-4CB9-1A24-382F-7A9A302B6901}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="zlib\contrib\minizip\ioapi.c">
       <Filter>zlib\contrib\minizip</Filter>
     </ClCompile>
-    <ClInclude Include="zlib\contrib\minizip\ioapi.h">
-      <Filter>zlib\contrib\minizip</Filter>
-    </ClInclude>
     <ClCompile Include="zlib\contrib\minizip\iowin32.c">
       <Filter>zlib\contrib\minizip</Filter>
     </ClCompile>
-    <ClInclude Include="zlib\contrib\minizip\iowin32.h">
-      <Filter>zlib\contrib\minizip</Filter>
-    </ClInclude>
     <ClCompile Include="zlib\contrib\minizip\unzip.c">
       <Filter>zlib\contrib\minizip</Filter>
     </ClCompile>
-    <ClInclude Include="zlib\contrib\minizip\unzip.h">
-      <Filter>zlib\contrib\minizip</Filter>
-    </ClInclude>
     <ClCompile Include="zlib\contrib\minizip\zip.c">
       <Filter>zlib\contrib\minizip</Filter>
     </ClCompile>
-    <ClInclude Include="zlib\contrib\minizip\zip.h">
-      <Filter>zlib\contrib\minizip</Filter>
-    </ClInclude>
     <ClCompile Include="zlib\adler32.c">
       <Filter>zlib</Filter>
     </ClCompile>
@@ -189,21 +33,12 @@
     <ClCompile Include="zlib\crc32.c">
       <Filter>zlib</Filter>
     </ClCompile>
-    <ClInclude Include="zlib\crc32.h">
-      <Filter>zlib</Filter>
-    </ClInclude>
     <ClCompile Include="zlib\deflate.c">
       <Filter>zlib</Filter>
     </ClCompile>
-    <ClInclude Include="zlib\deflate.h">
-      <Filter>zlib</Filter>
-    </ClInclude>
     <ClCompile Include="zlib\gzclose.c">
       <Filter>zlib</Filter>
     </ClCompile>
-    <ClInclude Include="zlib\gzguts.h">
-      <Filter>zlib</Filter>
-    </ClInclude>
     <ClCompile Include="zlib\gzlib.c">
       <Filter>zlib</Filter>
     </ClCompile>
@@ -219,47 +54,20 @@
     <ClCompile Include="zlib\inffast.c">
       <Filter>zlib</Filter>
     </ClCompile>
-    <ClInclude Include="zlib\inffast.h">
-      <Filter>zlib</Filter>
-    </ClInclude>
-    <ClInclude Include="zlib\inffixed.h">
-      <Filter>zlib</Filter>
-    </ClInclude>
     <ClCompile Include="zlib\inflate.c">
       <Filter>zlib</Filter>
     </ClCompile>
-    <ClInclude Include="zlib\inflate.h">
-      <Filter>zlib</Filter>
-    </ClInclude>
     <ClCompile Include="zlib\inftrees.c">
       <Filter>zlib</Filter>
     </ClCompile>
-    <ClInclude Include="zlib\inftrees.h">
-      <Filter>zlib</Filter>
-    </ClInclude>
-    <ClInclude Include="build\mozzconf.h">
-      <Filter>build</Filter>
-    </ClInclude>
     <ClCompile Include="zlib\trees.c">
       <Filter>zlib</Filter>
     </ClCompile>
-    <ClInclude Include="zlib\trees.h">
-      <Filter>zlib</Filter>
-    </ClInclude>
     <ClCompile Include="zlib\uncompr.c">
       <Filter>zlib</Filter>
     </ClCompile>
-    <ClInclude Include="zlib\zconf.h">
-      <Filter>zlib</Filter>
-    </ClInclude>
-    <ClInclude Include="zlib\zlib.h">
-      <Filter>zlib</Filter>
-    </ClInclude>
     <ClCompile Include="zlib\zutil.c">
       <Filter>zlib</Filter>
     </ClCompile>
-    <ClInclude Include="zlib\zutil.h">
-      <Filter>zlib</Filter>
-    </ClInclude>
   </ItemGroup>
 </Project>
