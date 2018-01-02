@@ -60,6 +60,7 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PreprocessorDefinitions>USE_SSLEAY;USE_IPV6;USE_ZLIB;USE_WINDOWS_SSPI;HAVE_SPNEGO;HAVE_ZLIB_H;HAVE_ZLIB;HAVE_LIBZ;BUILDING_LIBCURL;CURL_STATICLIB;DEBUG;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <EnableEnhancedInstructionSet>AdvancedVectorExtensions2</EnableEnhancedInstructionSet>
     </ClCompile>
     <Lib>
       <OutputFile>$(OutDir)lib\$(ProjectName)$(TargetExt)</OutputFile>
@@ -86,6 +87,7 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PreprocessorDefinitions>USE_SSLEAY;USE_IPV6;USE_ZLIB;USE_WINDOWS_SSPI;HAVE_SPNEGO;HAVE_ZLIB_H;HAVE_ZLIB;HAVE_LIBZ;BUILDING_LIBCURL;CURL_STATICLIB;DEBUG;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
     </ClCompile>
     <Lib>
       <OutputFile>$(OutDir)lib\$(ProjectName)$(TargetExt)</OutputFile>
@@ -113,11 +115,12 @@
       <OmitFramePointers>true</OmitFramePointers>
       <Optimization>Full</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
-      <PreprocessorDefinitions>USE_SSLEAY;USE_IPV6;USE_ZLIB;USE_WINDOWS_SSPI;HAVE_SPNEGO;HAVE_ZLIB_H;HAVE_ZLIB;HAVE_LIBZ;BUILDING_LIBCURL;CURL_STATICLIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>NDEBUG;USE_SSLEAY;USE_IPV6;USE_ZLIB;USE_WINDOWS_SSPI;HAVE_SPNEGO;HAVE_ZLIB_H;HAVE_ZLIB;HAVE_LIBZ;BUILDING_LIBCURL;CURL_STATICLIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
       <WholeProgramOptimization>true</WholeProgramOptimization>
       <DebugInformationFormat>None</DebugInformationFormat>
+      <EnableEnhancedInstructionSet>AdvancedVectorExtensions2</EnableEnhancedInstructionSet>
     </ClCompile>
     <Lib>
       <AdditionalOptions>/LTCG %(AdditionalOptions)</AdditionalOptions>
@@ -150,11 +153,12 @@
       <OmitFramePointers>true</OmitFramePointers>
       <Optimization>Full</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
-      <PreprocessorDefinitions>USE_SSLEAY;USE_IPV6;USE_ZLIB;USE_WINDOWS_SSPI;HAVE_SPNEGO;HAVE_ZLIB_H;HAVE_ZLIB;HAVE_LIBZ;BUILDING_LIBCURL;CURL_STATICLIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>NDEBUG;USE_SSLEAY;USE_IPV6;USE_ZLIB;USE_WINDOWS_SSPI;HAVE_SPNEGO;HAVE_ZLIB_H;HAVE_ZLIB;HAVE_LIBZ;BUILDING_LIBCURL;CURL_STATICLIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
       <WholeProgramOptimization>true</WholeProgramOptimization>
       <DebugInformationFormat>None</DebugInformationFormat>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
     </ClCompile>
     <Lib>
       <AdditionalOptions>/LTCG %(AdditionalOptions)</AdditionalOptions>
