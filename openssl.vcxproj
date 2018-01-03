@@ -51,7 +51,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>.;conf;openssl;openssl\crypto;openssl\crypto\asn1;openssl\crypto\evp;openssl\crypto\modes;openssl\crypto\include;openssl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.;conf;openssl;openssl\crypto;openssl\crypto\asn1;openssl\crypto\evp;openssl\crypto\include;openssl\crypto\modes;openssl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <CompileAsWinRT>false</CompileAsWinRT>
       <MinimalRebuild>false</MinimalRebuild>
@@ -59,7 +59,7 @@
       <Optimization>Disabled</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PreprocessorDefinitions>X64;_WIN64;OPENSSLDIR="ssl";ENGINESDIR="ssl/lib/engines";OPENSSL_PIC;DSO_WIN32;OPENSSL_THREADS;OPENSSL_NO_DYNAMIC_ENGINE;OPENSSL_SYS_WIN32;WIN32_LEAN_AND_MEAN;NO_WINDOWS_BRAINDEATH;L_ENDIAN;_CRT_SECURE_NO_DEPRECATE;UNICODE;_UNICODE;DEBUG;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <EnableEnhancedInstructionSet>AdvancedVectorExtensions2</EnableEnhancedInstructionSet>
     </ClCompile>
     <Lib>
@@ -78,7 +78,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>.;conf;openssl;openssl\crypto;openssl\crypto\asn1;openssl\crypto\evp;openssl\crypto\modes;openssl\crypto\include;openssl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.;conf;openssl;openssl\crypto;openssl\crypto\asn1;openssl\crypto\evp;openssl\crypto\include;openssl\crypto\modes;openssl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <CompileAsWinRT>false</CompileAsWinRT>
       <MinimalRebuild>false</MinimalRebuild>
@@ -86,7 +86,7 @@
       <Optimization>Disabled</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PreprocessorDefinitions>X86;_WIN32;OPENSSLDIR="ssl";ENGINESDIR="ssl/lib/engines";OPENSSL_PIC;DSO_WIN32;OPENSSL_THREADS;OPENSSL_NO_DYNAMIC_ENGINE;OPENSSL_SYS_WIN32;WIN32_LEAN_AND_MEAN;NO_WINDOWS_BRAINDEATH;L_ENDIAN;_CRT_SECURE_NO_DEPRECATE;UNICODE;_UNICODE;DEBUG;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
     </ClCompile>
     <Lib>
@@ -104,7 +104,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>.;conf;openssl;openssl\crypto;openssl\crypto\asn1;openssl\crypto\evp;openssl\crypto\modes;openssl\crypto\include;openssl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.;conf;openssl;openssl\crypto;openssl\crypto\asn1;openssl\crypto\evp;openssl\crypto\include;openssl\crypto\modes;openssl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>/MP %(AdditionalOptions)</AdditionalOptions>
       <CompileAsWinRT>false</CompileAsWinRT>
       <ExceptionHandling>false</ExceptionHandling>
@@ -116,12 +116,13 @@
       <Optimization>Full</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PreprocessorDefinitions>X64;_WIN64;NDEBUG;OPENSSLDIR="ssl";ENGINESDIR="ssl/lib/engines";OPENSSL_PIC;DSO_WIN32;NDEBUG;OPENSSL_THREADS;OPENSSL_NO_DYNAMIC_ENGINE;OPENSSL_SYS_WIN32;WIN32_LEAN_AND_MEAN;NO_WINDOWS_BRAINDEATH;L_ENDIAN;_CRT_SECURE_NO_DEPRECATE;UNICODE;_UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
       <WholeProgramOptimization>true</WholeProgramOptimization>
       <DebugInformationFormat>None</DebugInformationFormat>
       <WarningLevel>Level3</WarningLevel>
       <EnableEnhancedInstructionSet>AdvancedVectorExtensions2</EnableEnhancedInstructionSet>
+      <DisableSpecificWarnings>4090;4133;4244;4267;%(DisableSpecificWarnings)</DisableSpecificWarnings>
     </ClCompile>
     <Lib>
       <AdditionalOptions>/LTCG %(AdditionalOptions)</AdditionalOptions>
@@ -143,7 +144,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>.;conf;openssl;openssl\crypto;openssl\crypto\asn1;openssl\crypto\evp;openssl\crypto\include;openssl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.;conf;openssl;openssl\crypto;openssl\crypto\asn1;openssl\crypto\evp;openssl\crypto\include;openssl\crypto\modes;openssl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>/MP %(AdditionalOptions)</AdditionalOptions>
       <CompileAsWinRT>false</CompileAsWinRT>
       <ExceptionHandling>false</ExceptionHandling>
@@ -155,11 +156,12 @@
       <Optimization>Full</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PreprocessorDefinitions>X86;_WIN32;NDEBUG;OPENSSLDIR="ssl";ENGINESDIR="ssl/lib/engines";OPENSSL_PIC;DSO_WIN32;NDEBUG;OPENSSL_THREADS;OPENSSL_NO_DYNAMIC_ENGINE;OPENSSL_SYS_WIN32;WIN32_LEAN_AND_MEAN;NO_WINDOWS_BRAINDEATH;L_ENDIAN;_CRT_SECURE_NO_DEPRECATE;UNICODE;_UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
       <WholeProgramOptimization>true</WholeProgramOptimization>
       <DebugInformationFormat>None</DebugInformationFormat>
       <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <DisableSpecificWarnings>4090;4133;4244;4267;%(DisableSpecificWarnings)</DisableSpecificWarnings>
     </ClCompile>
     <Lib>
       <AdditionalOptions>/LTCG %(AdditionalOptions)</AdditionalOptions>

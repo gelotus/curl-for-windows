@@ -58,8 +58,8 @@
       <OmitFramePointers>false</OmitFramePointers>
       <Optimization>Disabled</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
-      <PreprocessorDefinitions>X64;_WIN64;USE_SSLEAY;USE_IPV6;USE_LIBSSH2;USE_ZLIB;USE_WINDOWS_SSPI;HAVE_SPNEGO;HAVE_ZLIB_H;HAVE_LIBSSH2_H;HAVE_ZLIB;HAVE_LIBZ;BUILDING_LIBCURL;CURL_STATICLIB;DEBUG;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PreprocessorDefinitions>X64;_WIN64;OPENSSL_PIC;DSO_WIN32;OPENSSL_THREADS;OPENSSL_NO_DYNAMIC_ENGINE;OPENSSL_SYS_WIN32;WIN32_LEAN_AND_MEAN;NO_WINDOWS_BRAINDEATH;L_ENDIAN;LIBSSH2DEBUG;LIBSSH2_CLEAR_MEMORY;LIBSSH2_DH_GEX_NEW=1;LIBSSH2_OPENSSL;LIBSSH2_WIN32;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;USE_SSLEAY;USE_IPV6;USE_LIBSSH2;USE_ZLIB;USE_WINDOWS_SSPI;HAVE_SPNEGO;HAVE_ZLIB_H;HAVE_LIBSSH2_H;HAVE_ZLIB;HAVE_LIBZ;BUILDING_LIBCURL;CURL_STATICLIB;DEBUG;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <EnableEnhancedInstructionSet>AdvancedVectorExtensions2</EnableEnhancedInstructionSet>
     </ClCompile>
     <Link>
@@ -82,8 +82,8 @@
       <OmitFramePointers>false</OmitFramePointers>
       <Optimization>Disabled</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
-      <PreprocessorDefinitions>X86;_WIN32;USE_SSLEAY;USE_IPV6;USE_LIBSSH2;USE_ZLIB;USE_WINDOWS_SSPI;HAVE_SPNEGO;HAVE_ZLIB_H;HAVE_LIBSSH2_H;HAVE_ZLIB;HAVE_LIBZ;BUILDING_LIBCURL;CURL_STATICLIB;DEBUG;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PreprocessorDefinitions>X86;_WIN32;OPENSSL_PIC;DSO_WIN32;OPENSSL_THREADS;OPENSSL_NO_DYNAMIC_ENGINE;OPENSSL_SYS_WIN32;WIN32_LEAN_AND_MEAN;NO_WINDOWS_BRAINDEATH;L_ENDIAN;_CRT_SECURE_NO_DEPRECATE;LIBSSH2DEBUG;LIBSSH2_CLEAR_MEMORY;LIBSSH2_DH_GEX_NEW=1;LIBSSH2_OPENSSL;LIBSSH2_WIN32;_CRT_SECURE_NO_WARNINGS;USE_SSLEAY;USE_IPV6;USE_LIBSSH2;USE_ZLIB;USE_WINDOWS_SSPI;HAVE_SPNEGO;HAVE_ZLIB_H;HAVE_LIBSSH2_H;HAVE_ZLIB;HAVE_LIBZ;BUILDING_LIBCURL;CURL_STATICLIB;DEBUG;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
     </ClCompile>
     <Link>
@@ -109,12 +109,13 @@
       <OmitFramePointers>true</OmitFramePointers>
       <Optimization>Full</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
-      <PreprocessorDefinitions>X64;_WIN64;NDEBUG;USE_SSLEAY;USE_IPV6;USE_LIBSSH2;USE_ZLIB;USE_WINDOWS_SSPI;HAVE_SPNEGO;HAVE_ZLIB_H;HAVE_LIBSSH2_H;HAVE_ZLIB;HAVE_LIBZ;BUILDING_LIBCURL;CURL_STATICLIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PreprocessorDefinitions>X64;_WIN64;NDEBUG;OPENSSL_PIC;DSO_WIN32;OPENSSL_THREADS;OPENSSL_NO_DYNAMIC_ENGINE;OPENSSL_SYS_WIN32;WIN32_LEAN_AND_MEAN;NO_WINDOWS_BRAINDEATH;L_ENDIAN;LIBSSH2_CLEAR_MEMORY;LIBSSH2_DH_GEX_NEW=1;LIBSSH2_OPENSSL;LIBSSH2_WIN32;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;USE_SSLEAY;USE_IPV6;USE_LIBSSH2;USE_ZLIB;USE_WINDOWS_SSPI;HAVE_SPNEGO;HAVE_ZLIB_H;HAVE_LIBSSH2_H;HAVE_ZLIB;HAVE_LIBZ;BUILDING_LIBCURL;CURL_STATICLIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
       <WholeProgramOptimization>true</WholeProgramOptimization>
       <DebugInformationFormat>None</DebugInformationFormat>
       <EnableEnhancedInstructionSet>AdvancedVectorExtensions2</EnableEnhancedInstructionSet>
+      <DisableSpecificWarnings>4090;4133;4244;4267;%(DisableSpecificWarnings)</DisableSpecificWarnings>
     </ClCompile>
     <Lib>
       <AdditionalOptions>/LTCG %(AdditionalOptions)</AdditionalOptions>
@@ -146,12 +147,13 @@
       <OmitFramePointers>true</OmitFramePointers>
       <Optimization>Full</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
-      <PreprocessorDefinitions>X86;_WIN32;NDEBUG;USE_SSLEAY;USE_IPV6;USE_LIBSSH2;USE_ZLIB;USE_WINDOWS_SSPI;HAVE_SPNEGO;HAVE_ZLIB_H;HAVE_LIBSSH2_H;HAVE_ZLIB;HAVE_LIBZ;BUILDING_LIBCURL;CURL_STATICLIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PreprocessorDefinitions>X86;_WIN32;NDEBUG;OPENSSL_PIC;DSO_WIN32;OPENSSL_THREADS;OPENSSL_NO_DYNAMIC_ENGINE;OPENSSL_SYS_WIN32;WIN32_LEAN_AND_MEAN;NO_WINDOWS_BRAINDEATH;L_ENDIAN;LIBSSH2_CLEAR_MEMORY;LIBSSH2_DH_GEX_NEW=1;LIBSSH2_OPENSSL;LIBSSH2_WIN32;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;USE_SSLEAY;USE_IPV6;USE_LIBSSH2;USE_ZLIB;USE_WINDOWS_SSPI;HAVE_SPNEGO;HAVE_ZLIB_H;HAVE_LIBSSH2_H;HAVE_ZLIB;HAVE_LIBZ;BUILDING_LIBCURL;CURL_STATICLIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
       <WholeProgramOptimization>true</WholeProgramOptimization>
       <DebugInformationFormat>None</DebugInformationFormat>
       <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <DisableSpecificWarnings>4090;4133;4244;4267;%(DisableSpecificWarnings)</DisableSpecificWarnings>
     </ClCompile>
     <Lib>
       <AdditionalOptions>/LTCG %(AdditionalOptions)</AdditionalOptions>
