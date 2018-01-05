@@ -99,9 +99,6 @@
     <ClCompile Include="curl\lib\x509asn1.c">
       <Filter>curl\lib</Filter>
     </ClCompile>
-    <ClCompile Include="curl\lib\amigaos.c">
-      <Filter>curl\lib</Filter>
-    </ClCompile>
     <ClCompile Include="curl\lib\asyn-ares.c">
       <Filter>curl\lib</Filter>
     </ClCompile>
