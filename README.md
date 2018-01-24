@@ -3,7 +3,7 @@
 Curl is a command line tool for transferring data specified with URL
 syntax. 
 
-This is an updated version with Curl v7.57.0, libssh2 v1.8.0, OpenSSL v1.1.0h, zlib v1.2.11
+This is an updated version with Curl v7.58.0, libssh2 v1.8.0, OpenSSL v1.1.0h, zlib v1.2.11
 that build in Visual Studio 2015 and 2017 
 
 libcurl is the library curl is using to do its job. It is readily
@@ -29,7 +29,7 @@ Happy linking ;)
 
 # Obtaining prerequisites 
 	
-    $ git clone -b 7.57-1.80-1.2.11 --single-branch https://github.com/gelotus/curl-for-windows
+    $ git clone -b 7.58-1.80-1.2.11 --single-branch https://github.com/gelotus/curl-for-windows
     $ git submodule update --init --recursive
       
 
